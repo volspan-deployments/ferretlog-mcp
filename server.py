@@ -144,4 +144,4 @@ async def get_stats(project_path: Optional[str] = None) -> dict:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="streamable-http", host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
