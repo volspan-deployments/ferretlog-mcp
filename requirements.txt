@@ -2,3 +2,5 @@ fastmcp
 httpx
 python-dotenv
 ferretlog
+starlette
+uvicorn
